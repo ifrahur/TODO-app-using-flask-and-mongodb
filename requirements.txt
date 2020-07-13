@@ -1,3 +1,7 @@
-FLASK
-BSON
-PYMONGO
+Flask
+gunicorn
+Jinja2
+MarkupSafe
+Werkzeug
+bson
+pymongo
