@@ -5,3 +5,4 @@ MarkupSafe
 Werkzeug
 bson
 pymongo
+pymongo[tls,srv]
