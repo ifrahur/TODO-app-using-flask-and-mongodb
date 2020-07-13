@@ -98,6 +98,6 @@ def search():
         todos_l = todos.find({refer:key})    
     return render_template('searchlist.html',todos=todos_l,t=title,h=heading)    
     
-if __name__ == "__main__":    
-    
-    app.run()   
+if __name__ == '__main__':
+    app.debug = True
+    app.run(host='0.0.0.0', port=5000, use_reloader=True)
